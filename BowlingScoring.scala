@@ -9,7 +9,7 @@ object BowlingScoring {
   def main(args: Array[String]) : Unit = {
     
     if(args.isEmpty){
-      println("Error! BowlingScoring program requires a command line argument of  string of valid rolls")
+      println("Error! BowlingScoring program requires a command line argument of a string of valid rolls")
       System.exit(-1)
     }
     println(scoreGame(args(0)))    
